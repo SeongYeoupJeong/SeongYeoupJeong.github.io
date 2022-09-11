@@ -14,7 +14,7 @@
 <body>
     <section class="section">
         <h1 class="title">머신러닝 서비스</h1>
-        <h2 class="subtitle">K-POP 연예인 닮은꼴 머신러닝 서비스</h2>
+        <h2 class="subtitle">K-POP 연예인 닮은꼴 머신러닝 서비스2</h2>
     </section>
 
     <div class="mt-3 container file-upload">
@@ -109,7 +109,7 @@
             var dic_class2information = {};
             dic_class2information['나연'] = 'TWICE의 멤버';
             dic_class2information['장원영'] = 'IVE의 멤버.';
-            dic_class2information['제니'] = 'BLACKPINK의 메인래퍼이자 리드보컬';
+            dic_class2information['최예나'] = '아이즈원의 멤버';
             var image = document.getElementById("face-image");
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
